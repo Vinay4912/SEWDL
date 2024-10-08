@@ -29,5 +29,4 @@ Frontend is buils using ReactJs. I've used Redux for global state management.
 ![](https://i.imgur.com/JNlHpsu.png)
 ## Contributors
 
-[Unnati Bamania](https://github.com/unnati2000)
-
+[Vinay Pawar](https://github.com/Vinay4912)
