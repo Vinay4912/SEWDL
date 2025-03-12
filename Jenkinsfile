@@ -42,14 +42,6 @@ pipeline {
                             sh 'pytest || echo "Tests failed but continuing..."' 
                         } else { 
                             echo 'No test scripts found, skipping tests.' 
- 
-Department of Information Technology, 
-DevOps Labs – VI  
-Lab Manual 
- 
- 
-   
- 
                         } 
                     } catch (Exception e) { 
                         echo 'Test execution failed but continuing...' 
@@ -89,10 +81,10 @@ Lab Manual
  
     post { 
         success { 
-            echo '   Pipeline executed successfully!' 
+            echo 'Pipeline executed successfully!' 
         } 
         failure { 
-            echo '  Pipeline execution failed! Please check logs.' 
+            echo 'Pipeline execution failed! Please check logs.' 
         } 
     } 
-} 
+}
